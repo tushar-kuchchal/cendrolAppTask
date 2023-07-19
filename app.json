@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "CendrolApp",
+    "slug": "CendrolApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/cendrolLogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/cendrol.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/cendrolLogo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.tushar_kuchchal.CendrolApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "74573d1b-d504-4800-81d6-2cb74401b3e5"
+      }
+    }
+  }
+}
